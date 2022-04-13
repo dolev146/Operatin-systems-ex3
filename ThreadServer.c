@@ -24,27 +24,13 @@
 #define BACKLOG 10	 // how many pending connections queue will hold
 
 
-void thread_controller (void * var){ 
-
-		// if (!fork()) { // this is the child procenew_fdss
-		// 	close(sockfd); // child doesn't need the listener
-		// 	if (send(new_fd, "Hello, world!", 13, 0) == -1)
-		// 		perror("send");
-		// 	close(new_fd);
-		// 	exit(0);
-		// }
-
+void *thread_controller (void * var){ 
         int *ptr = (int * ) var ;
         int new_fd = *ptr; 
         if (send(new_fd, "Hello, world!", 13, 0) == -1){
 		 		perror("send");
         }
         close(new_fd); 
-        
-
-
-
-
     return NULL; 
 }
 
@@ -153,7 +139,7 @@ int main(void)
 
 
         pthread_t t1; // we create here a thread to send the message 
-        phtread_create(&t1 , NULL , &thread_controller, &new_fd ); 
+        pthread_create(&t1 , NULL , thread_controller, &new_fd ); 
        // pthread_join(t1, NULL); 
 
 	}
