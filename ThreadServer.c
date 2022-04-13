@@ -154,7 +154,7 @@ int main(void)
 
         pthread_t t1; // we create here a thread to send the message 
         phtread_create(&t1 , NULL , &thread_controller, &new_fd ); 
-        pthread_join(t1, NULL); 
+       // pthread_join(t1, NULL); 
 
 	}
 
