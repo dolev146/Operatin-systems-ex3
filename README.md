@@ -64,6 +64,13 @@ then open a new terminal and run the client
 
 and you should see that client received Hello world! 
 
+the function of the multi-Threading
+
+![image](https://user-images.githubusercontent.com/62290677/163340922-c7471a8a-d79b-4031-b00a-a67dbb342396.png)
+![image](https://user-images.githubusercontent.com/62290677/163341024-fa734ad9-29d4-4e4f-ba88-523d5f226a92.png)
+
+
+
 requried to have ["make","gcc","git"] installed
 
 
