@@ -10,7 +10,7 @@ https://beej.us/guide/bgnet/html/#a-simple-stream-server
 
 and change the code of the server to use multi-Threading :)
 
-[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/62290677/163343488-882c6923-4311-4f68-a2d9-6f99273ffa95.png)](https://www.youtube.com/watch?v=-VQmZOC7CB5E)
+[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/62290677/163343488-882c6923-4311-4f68-a2d9-6f99273ffa95.png)](https://www.youtube.com/watch?v=VQmZOC7CB5E)
 
 
 
